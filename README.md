@@ -1,37 +1,9 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
+   <h1><b>Crypto Exchanges</b></h1>
+  <img src="./src/images/image1.png" alt="Crypto Exchange Image" width="45%" />
+  <img src="./src/images/image2.png" alt="Crypto Exchange Image" width="45%" />
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -60,36 +32,34 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Crypto Exchanges <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**Crypto Exchanges** Crypto-exchanges is a Web-App that displays and allow users to filter data for an individual crypto exchange.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">React</a> to create the UI.</li>
+    <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a> to manage state.</li>
+    <li><a href="https://module.css.com/">Tailwindcss</a> to apply awesome styles.</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://api.coingecko.com/api/v3/exchanges">Crypto Exchange API</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>N/A</li>
   </ul>
 </details>
 
@@ -97,11 +67,10 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Users can filter stocks for specific market.**
+- **Users can filter stocks using name or symbol.**
+- **Users can see detailed information about any stock.**
+- **The application is fully responsive.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +78,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo](https://crypto-currencyexchange.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,83 +86,52 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+To get a local copy of this project and run it in your computer, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- A working computer.
+- Connection to internet.
+- [npm](https://www.npmjs.com/) and [Node.js](https://nodejs.org/en/) installed, if you don't have them, please follow this [simple installation guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ### Setup
 
-Clone this repository to your desired folder:
+To get a local copy up and running follow these simple example steps.
 
-<!--
-Example commands:
+Clone this repository in the desired folder:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
 ```
---->
+cd my-folder
+git clone https://github.com/francis3400/Crypto-Exchange.git
+```
 
 ### Install
 
-Install this project with:
+To install this project:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
 ```
---->
+cd Stock-Viewer
+code .
+npm install
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
+npm start
 ```
---->
 
-### Deployment
+### Run Tests
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
+To run the project tests, execute the following command:
 
 ```
- -->
+npm test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,19 +139,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Francis Uche**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@francis3400](https://github.com/francis3400)
+- LinkedIn: [@francis Uche](https://www.linkedin.com/in/francis-uche/)
+- Twitter: [@francisBlinkz](https://twitter.com/francisBlinkz)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +151,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Corrections spotted by reviewer will be implemented**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +169,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project feel free to frok it and use it as you need.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +177,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank **Nelson Sakwa** for the design
 
-I would like to thank...
+- Behance: [@sakwadesignstudio](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -265,15 +187,13 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Can I use the project for any purpose?**
 
-- **[Question_1]**
+  - Yes, you can use this files for anything you need.
 
-  - [Answer_1]
+- **Is the information saved in any database?**
 
-- **[Question_2]**
-
-  - [Answer_2]
+  - No, all data is fetched from API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -282,7 +202,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
