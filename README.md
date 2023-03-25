@@ -2,8 +2,8 @@
 
 <div align="center">
    <h1><b>Crypto Exchanges</b></h1>
-  <img src="./src/assets/stocks1.png" alt="Awesome Meals image" width="45%" />
-  <img src="./src/assets/stocks2.png" alt="Awesome Meals image" width="45%" />
+  <img src="./src/images/image1.png" alt="Crypto Exchange Image" width="45%" />
+  <img src="./src/images/image2.png" alt="Crypto Exchange Image" width="45%" />
 </div>
 
 <!-- TABLE OF CONTENTS -->
