@@ -40,43 +40,26 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<<<<<<< HEAD
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React</a> to create the UI.</li>
     <li><a href="https://redux-toolkit.js.org/">Redux Toolkit</a> to manage state.</li>
     <li><a href="https://module.css.com/">Tailwindcss</a> to apply awesome styles.</li>
-=======
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
->>>>>>> dev
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-<<<<<<< HEAD
     <li><a href="https://api.coingecko.com/api/v3/exchanges">Crypto Exchange API</a></li>
-=======
-    <li><a href="https://expressjs.com/">Express.js</a></li>
->>>>>>> dev
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-<<<<<<< HEAD
     <li>N/A</li>
-=======
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
->>>>>>> dev
   </ul>
 </details>
 
@@ -84,18 +67,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-<<<<<<< HEAD
 - **Users can filter stocks for specific market.**
 - **Users can filter stocks using name or symbol.**
 - **Users can see detailed information about any stock.**
 - **The application is fully responsive.**
-=======
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
->>>>>>> dev
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,13 +78,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<<<<<<< HEAD
-- [Live Demo](https://stock-viewer.onrender.com/)
-=======
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
->>>>>>> dev
+- [Live Demo](https://crypto-currencyexchange.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -235,4 +204,3 @@ I would like to thank **Nelson Sakwa** for the design
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
