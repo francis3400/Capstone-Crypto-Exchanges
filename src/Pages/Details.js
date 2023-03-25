@@ -1,7 +1,7 @@
 /* eslint-disable camelcase */
-import React from "react";
-import { useLocation } from "react-router";
-import "./Details.css";
+import React from 'react';
+import { useLocation } from 'react-router';
+import './Details.css';
 
 const Details = () => {
   const location = useLocation();
@@ -48,7 +48,7 @@ const Details = () => {
         </p>
         <p>
           <span>Has trading incentives </span>
-          <span>{has_trading_incentive ? "True" : "False"}</span>
+          <span>{has_trading_incentive ? 'True' : 'False'}</span>
         </p>
       </div>
     </div>

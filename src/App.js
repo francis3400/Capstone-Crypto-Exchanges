@@ -1,15 +1,15 @@
-import React from "react";
-import { useDispatch } from "react-redux";
-import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import { fetchExchanges } from "./Redux/Exchange/Exchange";
+import React from 'react';
+import { useDispatch } from 'react-redux';
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import { fetchExchanges } from './Redux/Exchange/Exchange';
 
 // components
-import Navbar from "./components/Navbar";
+import Navbar from './components/Navbar';
 
 // pages
-import Home from "./Pages/Home";
-import Details from "./Pages/Details";
+import Home from './Pages/Home';
+import Details from './Pages/Details';
 
 function App() {
   const dispatch = useDispatch();

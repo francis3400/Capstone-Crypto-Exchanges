@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { useSelector } from "react-redux";
-import { useNavigate } from "react-router";
-import ExchangeDetails from "../components/ExchangeDetails";
-import "./Home.css";
+/* eslint-disable max-len */
+import React, { useState, useEffect } from 'react';
+import { useSelector } from 'react-redux';
+import { useNavigate } from 'react-router';
+import ExchangeDetails from '../components/ExchangeDetails';
+import './Home.css';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -15,15 +16,13 @@ const Home = () => {
   }, [exchanges]);
 
   const handleSearch = (text) => {
-    const filterExchanges = exchanges.filter((exc) =>
-      exc.name.toLowerCase().includes(text.toLowerCase())
-    );
+    const filterExchanges = exchanges.filter((exc) => exc.name.toLowerCase().includes(text.toLowerCase()));
     setExchangeList(filterExchanges);
   };
 
   const showDetails = (id) => {
     const itemClick = exchanges.filter((exchange) => exchange.id === id);
-    navigate("/details", { state: itemClick[0] });
+    navigate('/details', { state: itemClick[0] });
   };
   return (
     <div className="main-container">

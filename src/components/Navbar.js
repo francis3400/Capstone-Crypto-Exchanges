@@ -1,16 +1,16 @@
-import React from "react";
-import { useNavigate } from "react-router";
-import "./Navbar.css";
-import { HiOutlineMicrophone } from "react-icons/hi";
-import { FiSettings } from "react-icons/fi";
-import { MdArrowBackIosNew } from "react-icons/md";
+import React from 'react';
+import { useNavigate } from 'react-router';
+import './Navbar.css';
+import { HiOutlineMicrophone } from 'react-icons/hi';
+import { FiSettings } from 'react-icons/fi';
+import { MdArrowBackIosNew } from 'react-icons/md';
 
 const Navbar = () => {
   const navigate = useNavigate();
   return (
     <div className="nav-container">
       <div className="home-btn">
-        <button type="button" onClick={() => navigate("/")}>
+        <button type="button" onClick={() => navigate('/')}>
           <span>
             <MdArrowBackIosNew />
           </span>
@@ -22,10 +22,10 @@ const Navbar = () => {
       </div>
       <div className="nav-icons">
         <span>
-          <HiOutlineMicrophone style={{ color: "white", fontSize: "18px" }} />
+          <HiOutlineMicrophone style={{ color: 'white', fontSize: '18px' }} />
         </span>
         <span>
-          <FiSettings style={{ color: "white", fontSize: "18px" }} />
+          <FiSettings style={{ color: 'white', fontSize: '18px' }} />
         </span>
       </div>
     </div>

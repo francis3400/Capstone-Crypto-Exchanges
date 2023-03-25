@@ -1,12 +1,14 @@
 /* eslint-disable camelcase */
-import React from "react";
-import "./ExchangeDetails.css";
-import "../Pages/Home.css";
-import PropTypes from "prop-types";
-import { BsBoxArrowRight } from "react-icons/bs";
+import React from 'react';
+import './ExchangeDetails.css';
+import '../Pages/Home.css';
+import PropTypes from 'prop-types';
+import { BsBoxArrowRight } from 'react-icons/bs';
 
 const ExchangeDetails = ({ exchange, showDetails }) => {
-  const { id, name, image, trust_score_rank } = exchange;
+  const {
+    id, name, image, trust_score_rank,
+  } = exchange;
 
   return (
     <>
@@ -14,7 +16,7 @@ const ExchangeDetails = ({ exchange, showDetails }) => {
         <div className="details-btn">
           <button type="button" onClick={() => showDetails(id)}>
             <BsBoxArrowRight
-              style={{ background: "#CF4278", fontSize: "16px" }}
+              style={{ background: '#CF4278', fontSize: '16px' }}
             />
           </button>
         </div>
