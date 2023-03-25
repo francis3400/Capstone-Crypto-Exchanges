@@ -17,7 +17,6 @@ export default function renderWithProviders(
     ...renderOptions
   } = {},
 ) {
-  // eslint-disable-next-line
   function Wrapper({ children }) {
     return <Provider store={store}>{children}</Provider>;
   }

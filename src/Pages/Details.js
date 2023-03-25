@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import React from 'react';
 import { useLocation } from 'react-router';
 import './Details.css';
@@ -6,7 +5,6 @@ import './Details.css';
 const Details = () => {
   const location = useLocation();
   const {
-    // eslint-disable-next-line camelcase, max-len
     image,
     name,
     country,
